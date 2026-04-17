@@ -1,0 +1,23 @@
+[project]
+name = "cli"
+version = "1.0.0"
+description = "Hello CLI"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1",
+]
+
+[project.scripts]
+# hello = "cli.hello:cli"
+# hello_count = "cli.basic:hello_count"
+Gustav = "cli.main:cli"
+command = "cli.main:command"
+flag = "cli.main:flag"
+option = "cli.main:option"
+pipe = "cli.main:pipe"
+form_answer = "cli.main:form_answer"
+
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
