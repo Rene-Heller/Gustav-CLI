@@ -19,6 +19,7 @@
 | `open-da` | Open the Developer Akademie website in the default browser. |
 | `start-browser <url>` | Open a URL in the default browser with protocol validation. |
 | `init-project <name>` | Initialize a new web project with HTML, CSS, and JS files. |
+| `quote` | Funny quote from WC3-Priest |
 
 ## `Gustav` Group Commands
 
