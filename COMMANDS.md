@@ -16,6 +16,9 @@
 | `flag` | Print an explanation of how CLI flags work. |
 | `option` | Print an explanation of how CLI options work. |
 | `pipe` | Print an explanation of pipe usage. |
+| `open-da` | Open the Developer Akademie website in the default browser. |
+| `start-browser <url>` | Open a URL in the default browser with protocol validation. |
+| `init-project <name>` | Initialize a new web project with HTML, CSS, and JS files. |
 
 ## `Gustav` Group Commands
 

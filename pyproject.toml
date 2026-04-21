@@ -1,23 +1,25 @@
 [project]
-name = "cli"
-version = "1.0.0"
-description = "Hello CLI"
-requires-python = ">=3.11"
 dependencies = [
-    "click>=8.1",
+  "click>=8.1",
 ]
+description = "Hello CLI"
+name = "cli"
+requires-python = ">=3.11"
+version = "1.0.0"
 
 [project.scripts]
-# hello = "cli.hello:cli"
-# hello_count = "cli.basic:hello_count"
 Gustav = "cli.main:cli"
 command = "cli.main:command"
 flag = "cli.main:flag"
+form_answer = "cli.main:form_answer"
+learn_coding = "cli.main:open_da"
 option = "cli.main:option"
 pipe = "cli.main:pipe"
-form_answer = "cli.main:form_answer"
-
+quote = "cli.main:quote"
+start_browser = "cli.main:start_browser"
+open_da="cli.main:open_da"
+init_project = "cli.setup:init_project"
 
 [build-system]
-requires = ["flit_core<4"]
 build-backend = "flit_core.buildapi"
+requires = ["flit_core<4"]
