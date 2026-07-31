@@ -49,6 +49,9 @@ def init_project(name: str):
 
     try:
         click.echo(name)
-        subprocess.run("code .", cwd=name, shell=True, check=True)
+        subprocess.run("code .", cwd=name, shell=True, check=True) # cwd setzt path, shell-bool-> zieht sich .env-shell oder nimmt default sys.shell, #check->bricht script bei Fehlern ab
     except FileNotFoundError:
         click.echo("VS Code CLI 'code' nicht gefunden. Bitte öffne den Ordner manuell.")
+
+
+# Rewrite blockieren und evtl. --force mit einbauen

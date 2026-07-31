@@ -8,7 +8,7 @@ def cli():
 
 @cli.command()
 def hello():
-    click.echo("\nHello dear Master Kevin!")
+    click.echo("\nHello René!")
     
     
 @cli.command()
